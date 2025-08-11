@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+.body{
+	background-color: orange;
+	background-attachment: fixed;
+
+}
+
+
+
+.p1{
+	font-weight: bold;
+}
+
+.p2{
+	font-size: 30px;
+}
+
+.block1{
+	margin: 2% 0px 0px 11% ;
+	width: 80%;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #000;
+
+	text-align: center;
+	font-size: 40px;
+	padding: 40px 0px 0px 0px ;
+	
+	background:url(../img/bg_repeat.jpg)
+}
+
+.block2{
+	
+	border: 1px solid #f6ff00;
+	box-shadow: 0 0 15px #000;
+	align-items: center;
+	height: 200px;
+	margin: 5% 5% 0% 5%;
+    
+	background:#ffffff  url(../img/0-02-05-3fa5c0212b48a61adcd9b0ec7a6b930ee0091a0df847e7e13bc98a366dc0dd73_e443412f.jpg) no-repeat;
+	background-size: 10%;
+	background-position: 50px  ;
+}
+
+
+.p3{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 43px 200px 0px 200px ;
+}
+.p4{
+	font-size: 20px;
+	padding: 4px 200px 0px 200px ;
+}
+
+.block3{
+	border: 0px solid white;
+	box-shadow: 0 0 15px #000;
+	height: 100px;
+	margin: 12% 0% 0% 0% ;
+	background:url(../img/bg_repeat.jpg);
+}
+
+.h1{
+	text-align: center;
+	padding: 10px 0px 10px 0px  ;
+	font-size: 25px;
+}
+
+.button{
+	border: 2px #000;
+	box-shadow:0 0 15px #000;
+	border-radius: 5px;
+	background: rgb(2, 255, 2);
+	padding: 20px 40px;
+	display: inline-block;
+	color: #000;
+
+}
+
+.p5{
+	font-size: 25px ;
+	text-align: center;
+	padding: 2% 0% 0% 0% ;
+}
